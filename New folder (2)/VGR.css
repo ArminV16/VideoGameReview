@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.text-center {
+    text-align: center;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #222;
+    color: white;
+    padding: 20px 0;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+
+
+.hero {
+    background: url('background.jpeg') center center no-repeat;
+    background-size: cover;
+    padding: 80px 0;
+    color: white;
+    text-align: center;
+}
+
+
+
+.reviews {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+
+
+.review-card {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+.links {
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    .hero p {
+        font-size: 1.1rem;
+    }
+
+    .review-card p {
+        font-size: 1rem;
+    }
+}
+    .review-card a {
+        font-size: 1rem;
+    }
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.3rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .review-card p {
+        font-size: 0.95rem;
+    }
+
+    .review-card a {
+        font-size: 1rem;
+    }
+}
